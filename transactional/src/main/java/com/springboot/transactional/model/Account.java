@@ -1,0 +1,24 @@
+package com.springboot.transactional.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Version;
+import lombok.Data;
+
+@Data
+@Entity
+public class Account {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private String accName;
+	private double accBalance;
+	
+	@Version
+	private Long version;
+	
+	
+}
