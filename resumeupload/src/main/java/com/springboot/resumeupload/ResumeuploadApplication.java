@@ -1,0 +1,13 @@
+package com.springboot.resumeupload;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ResumeuploadApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ResumeuploadApplication.class, args);
+	}
+
+}

@@ -1,0 +1,14 @@
+2026-03-13T11:52:24.064+05:30  INFO 33928 --- [loggers] [restartedMain] c.springboot.loggers.LoggersApplication  : Starting LoggersApplication using Java 21.0.9 with PID 33928 (C:\springbootjars\HclTech\loggers\target\classes started by rohan.prasad in C:\springbootjars\HclTech\loggers)
+2026-03-13T11:52:24.065+05:30  INFO 33928 --- [loggers] [restartedMain] c.springboot.loggers.LoggersApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T11:52:24.224+05:30  INFO 33928 --- [loggers] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-13T11:52:24.226+05:30  INFO 33928 --- [loggers] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-13T11:52:24.226+05:30  INFO 33928 --- [loggers] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-13T11:52:24.250+05:30  INFO 33928 --- [loggers] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 180 ms
+2026-03-13T11:52:24.338+05:30  INFO 33928 --- [loggers] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-13T11:52:24.342+05:30  INFO 33928 --- [loggers] [restartedMain] c.springboot.loggers.LoggersApplication  : Started LoggersApplication in 0.329 seconds (process running for 262.108)
+2026-03-13T11:52:24.345+05:30  INFO 33928 --- [loggers] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-13T11:52:28.793+05:30  INFO 33928 --- [loggers] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-13T11:52:28.794+05:30  INFO 33928 --- [loggers] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-13T11:52:28.796+05:30  INFO 33928 --- [loggers] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-13T11:52:28.799+05:30  INFO 33928 --- [loggers] [http-nio-8080-exec-1] com.springboot.loggers.HomeController    : API called
+2026-03-13T11:52:28.799+05:30 ERROR 33928 --- [loggers] [http-nio-8080-exec-1] com.springboot.loggers.HomeController    : Error example
